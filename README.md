@@ -37,7 +37,7 @@ The **Simon Game** is a classic memory challenge where players must remember and
 ## 📦 Installation & Setup  
 1️⃣ **Clone this repository**  
 ```bash
-git clone https://github.com/yourusername/simon-game.git
+git clone https://github.com/yourusername/Simon.git
 ```
 2️⃣ **Navigate to the project folder**
 ```bash
