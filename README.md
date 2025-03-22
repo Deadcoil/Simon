@@ -30,7 +30,8 @@ The **Simon Game** is a classic memory challenge where players must remember and
 ---
 
 ## 🖼️ Game Preview  
-*(Add a screenshot or GIF of the game in action here!)*  
+![Game Preview](assets/games.png)
+![Game Preview](assets/gameo.png)
 
 ---
 
