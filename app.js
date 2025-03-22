@@ -7,11 +7,38 @@ let gameseq=[];
 let userseq=[];
 let started=false;
 
+
+let ra=document.querySelector(".red");
+ra.addEventListener("click", function () {
+    let redaudio=new Audio("/assets/red.mp3");
+    redaudio.play();
+});
+
+let ga=document.querySelector(".green");
+ga.addEventListener("click", function () {
+    let greenaudio=new Audio("/assets/green.mp3");
+    greenaudio.play();
+});
+
+let ya=document.querySelector(".yellow");
+ya.addEventListener("click", function () {
+    let yellowaudio=new Audio("/assets/yellow.mp3");
+    yellowaudio.play();
+});
+
+let pa=document.querySelector(".purple");
+pa.addEventListener("click", function () {
+    let purpleaudio=new Audio("/assets/purple.mp3");
+    purpleaudio.play();
+});
+
 let start=document.querySelector("button");
 let h2=document.querySelector("h2");
 
 start.addEventListener("click", function() {
     if(started==false) {
+        let sa=new Audio("/assets/start.mp3");
+        sa.play();
         console.log("Game is Started");
         h3.innerText="";
         started=true;
@@ -70,6 +97,8 @@ function checking(idx) {
     }
     else{
         gameOverFlash(body);
+        let ov=new Audio("/assets/over.mp3");
+        ov.play();
         checkHigh(lvl);
         h2.innerText="Game Over! Press the start button to start the game!";
         h3.innerHTML=`Your Score: <b>${lvl-1}</b>.<br>Highest Score: <b>${highestScore}</b>`;
