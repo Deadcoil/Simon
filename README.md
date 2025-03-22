@@ -38,11 +38,11 @@ The **Simon Game** is a classic memory challenge where players must remember and
 1️⃣ **Clone this repository**  
 ```bash
 git clone https://github.com/yourusername/simon-game.git
-
+```
 2️⃣ **Navigate to the project folder**
 ```bash
 cd simon-game
-
+```
 3️⃣ **Run the game**
 
 Open index.html in your browser and start playing! 🎮
@@ -58,4 +58,3 @@ Want to improve the game? **Fork this repo, make changes, and submit a pull requ
 ---
 
 Enjoy the game and challenge yourself to beat the highest score! 🎮🔥  
-
