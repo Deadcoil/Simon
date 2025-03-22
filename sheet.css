@@ -1,0 +1,72 @@
+body{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: mediumpurple;
+}
+.btn {
+    height: 180px;
+    width: 180px;
+    border-radius: 20px;
+    border: 5px solid black;
+    margin: 1.5rem;
+}
+.btn-container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Start {
+    background-color: blanchedalmond;
+    color: grey;
+}
+
+.red{
+    background-color: red;
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.green {
+    background-color: green;
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellow {
+    background-color: yellow;
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.purple {
+    background-color: purple;
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+ .Start {
+    font-size: 1.7rem;
+     border: 1.5px solid black;
+    border-radius: 10px;
+} 
+
+.flash {
+    background-color: aliceblue;
+}
+
+.gameOverFlash {
+    background-color: red;
+}
+
+.userBtn {
+    background-color: greenyellow;
+}
